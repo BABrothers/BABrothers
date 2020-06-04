@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  background-color: white;
+  font-family: 'Merriweather';
+  font-size: 20px;
+}
+
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento";
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: normal;
+  color: #66BFBF;
+
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: 	#20b2aa;
+
+
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+
+margin: 100px auto;
+
+
+}
+
+.Top {
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 100px;
+}
+
+.Middle {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.Bottom {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  /*****1em = 16px = 100% ******/
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.skill-row{
+width:50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+
+.laptop{
+  width: 25%;
+  border-radius:50%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies{
+  width: 25%;
+  border-radius: 50%;
+  float:right ;
+  margin-left:  30px;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #6AEFEF 5%, #408c99 100%);
+	background-color:#99ccbd;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Montserrat";
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin: 30px auto 30px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #99ccbd 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+a:hover{
+color: #EAF6F6;
+
+}
+
+.copyright{
+color: #EAF6F6;
+font-size:0.75rem;
+padding:20px 0px;
+}
